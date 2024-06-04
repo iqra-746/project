@@ -1,0 +1,137 @@
+
+.mynav{
+    background-color:rgb(4, 4, 75) ;
+}
+
+.nav-link {
+    color: white;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.mylogo{
+    color: white;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+
+}
+.mynav .navbar-nav .nav-item .nav-link.active {
+    color: rgb(16, 97, 189) !important; /* Change this to the color you desire */
+}
+
+.images {
+    height: 350px;
+}
+
+.About {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 60%;
+    margin: 60px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.img {
+    width: 340px;
+    height: 460px;
+    display: flex;
+    justify-items: center;
+    margin: 40px;
+}
+
+.logo {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px;
+}
+
+.iframe{
+    width: 600px;
+    height: 450px;
+  display: flex;
+
+}
+.admissionform {
+    margin: 10%;
+    padding: 5%;
+    width: 80%;
+    justify-content: center;
+}
+.form{
+    font-family: 'Arial Narrow Bold';
+}
+.footer{
+    background-color: rgb(3, 3, 43);
+    color: white;
+    margin: 0%;
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 250px;
+    
+}
+.container{
+   
+    display: flex;
+    justify-content: center;
+    font-family: 'Arial Narrow Bold';
+}
+.footer-col{
+    width: 30%;
+    padding: 0 25px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: rgb(3, 3, 43);
+    background-color: white;
+    margin: 0 10px 0;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a :hover{
+    background-color: rgb(3, 3, 43);
+    color: rgb(52, 112, 161);
+}
+/* responsive */
+@media(max-width: 730px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30%;
+    }
+}
+@media(max-width: 560px){
+    .footer-col{
+        width: 100%;
+        
+    }
+}
+.card-group{
+    margin: 10%;
+    padding: 5%;
+}
+.container-fluid1{
+    background-color: rgb(4, 4, 75) ;
+    color: white;
+    display: flex ;
+    justify-content: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    margin: 10%;
+    padding: 0%;
+    
+}
+
+.note{
+    margin: 10%;
+    padding: 2.5%;
+}
+.chairman{
+    padding: 5%;
+}

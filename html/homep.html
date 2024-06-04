@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg mynav">
+        <div class="container-fluid">
+            <img src="/imgs/305645908_500657442063025_7187719797842487252_n.jpg" class="logo" alt="">
+            <a class="navbar-brand mylogo" href="#">Standard <br>Group of Institute</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/homep.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/aboutp.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/academic_achievements.html">Academic Achievement</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="admissionform.html">Admission Form</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="/imgs/429772684_889608163167949_7618474525821502396_n.png" class="d-block w-100 images"
+                    alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="/imgs/428651130_887465123382253_6426400263988914230_n.jpg" class="d-block w-100 images "
+                    alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/imgs/374698973_773135054815261_2337926859111306065_n.jpg" class="d-block w-100 images"
+                    alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="iframe">
+       <iframe src="./javascript/An_HLpZK1WgA17OZp8GhuTlSjbf-HCiW8ECP-s8zTINdWUuMueL26Olmvq8wtRcby5_ZTF0L_rEyY8D_E1myAe4P.mp4 ,autoplay" frameborder="0"></iframe>
+    </div>
+
+<div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><a href="#">+92 335 1446822</a></li>
+                        <li><a href="#">630 Umer Block, Allama Iqbal Town, Lahore</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="homep.html">Home</a></li>
+                        <li><a href="aboutp.html">About Us</a></li>
+                        <li><a href="academic achievements.html">Academic Achievement</a></li>
+                        <li><a href="admissionform.html">Admission Form</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-google"></i></a>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+</div>
+    
+
+
+  
+   <script type="text/javascript">
+    $(document).ready(function () {
+        var url = window.location;
+        $('ul.nav a[href="'+ url +'"]').parent().addClass('active');
+        $('ul.nav a').filter(function() {
+             return this.href == url;
+        }).parent().addClass('active');
+    });
+</script>
+<script src="/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
